@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    overflow: hidden;
+    height: 80px;
+    padding: 10px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.8s ease-in-out;
+    transition: border-radius 0.8s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: #D8EEEE;
+    color: #225350;
+    border-radius: 10px;
+}
+
+.navbar a:first-child {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.navbar a:last-child{
+    float: right;
+    color: black;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.mainLeft {
+    background-color: #225350;
+    flex: 1;
+    width: 50%;
+    float: left;
+    padding: 150px 0px 100px 100px;
+}
+
+.mainLeft h2 {
+    background-color: #225350;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.mainLeft p {
+    background-color: #225350;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.mainLeft input {
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: #E0B45A;
+    border-radius: 8px;
+    transition: background-color 0.8s ease-in-out;
+    color: #093433;
+}
+
+.mainLeft input:hover {
+    transform: scale(1.05);
+}
+
+.mainRight {
+    float: left;
+    width: 50%;
+    flex: 1;
+    height: auto;
+    background-color: #225350;
+    overflow: hidden;
+}
+
+.mainRight img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.best-writing-jobs {
+    text-align: center;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.best-writing-jobs h4 {
+    margin-top: 80px;
+    background-color: #D8EEEE;
+    width: 10%;
+    padding: 5px;
+    color: #225350;
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+
+.row-test {
+    display: block;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.test-col {
+    width: 320px;
+    height: 300px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 45px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.mem_header {
+    padding: 25px 12px;
+    text-align: center;
+}
+
+.mem_header h1 {
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+.mem {
+    text-align: left;
+}
+
+.mem h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mem ul li {
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.row-price {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 550px;
+    align-items: center;
+}
+
+.price-col {
+    align-items: normal;
+    margin-bottom: 5px;
+    
+}
+
+.price-col h3 {
+    margin-bottom: 3px;
+}
+
+.price-col input {
+    background-color: #E0B45A;
+    padding: 12px 10px;
+    margin-top: 3px;
+    border-radius: 60px;
+    font-weight: 300;
+}
+
+.link {
+    text-align: center;
+}
+
+.link a {
+    background-color: #E0B45A;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 12px 10px;
+    border-radius: 7px;
+}
+
+.signup {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+form input {
+    margin-top: 10px;
+}
+
+.reg {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.reg input {
+    padding: 12px 10px;
+    font-size: 15px;
+    background-color: #E0B45A;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #225350;
+    margin-top: 40px;
+    height: 100px;
+    color: #D8EEEE;
+    padding: 12px;
+    text-align: center;
+}
